@@ -1,0 +1,66 @@
+[
+  {
+    "id": "meet-marisol",
+    "screen_id": "story",
+    "route": "/",
+    "target": "story-panel",
+    "title": "Meet Marisol",
+    "body": "Marisol handles state incident reporting for five senior living communities. Here is her morning before and after this tool."
+  },
+  {
+    "id": "all-incidents-one-view",
+    "screen_id": "tracker",
+    "route": "/tracker",
+    "target": "tracker-table",
+    "title": "Every incident, one view",
+    "body": "All open and recent incident reports across every community, with the time left before each filing deadline."
+  },
+  {
+    "id": "incident-history",
+    "screen_id": "case",
+    "route": "/case",
+    "target": "case-timeline",
+    "title": "Full incident history",
+    "body": "Every care note, message and form change for an incident, in one timeline."
+  },
+  {
+    "id": "exception-flagged",
+    "screen_id": "denials",
+    "route": "/denials",
+    "target": "denial-row-3318",
+    "title": "A gap, caught early",
+    "body": "This fall report is missing the physician notification time. The tracker flagged it as soon as the draft was checked, not hours later."
+  },
+  {
+    "id": "deadline-clock",
+    "screen_id": "denials",
+    "route": "/denials",
+    "target": "appeal-countdown",
+    "title": "The clock is visible",
+    "body": "A live countdown to the filing deadline. No more tracking it in a spreadsheet."
+  },
+  {
+    "id": "human-review",
+    "screen_id": "appeals",
+    "route": "/appeals",
+    "target": "approval-queue-item",
+    "title": "Marisol still decides",
+    "body": "Nothing goes to the state until Marisol reviews the draft and clicks approve herself."
+  },
+  {
+    "id": "metrics-overview",
+    "screen_id": "tracker",
+    "route": "/tracker",
+    "target": "metric-panel",
+    "title": "The numbers that matter",
+    "body": "Open reports, on-time filings, hours to file and open exceptions, all computed from the incident data."
+  },
+  {
+    "id": "how-it-works",
+    "screen_id": "architecture",
+    "route": "/architecture",
+    "target": "architecture-diagram",
+    "title": "How this would be built",
+    "body": "Incident data would come from Aline Care into Power Automate flows, with Teams approvals, Dataverse for tracking, and Azure OpenAI drafting inside the group's own Microsoft tenant."
+  }
+]
